@@ -2,19 +2,181 @@ Store the result of the following expressions in “ans” variable of type bool
 the final result.
 
 1. boolean ans = 40>=2*45 || 30>=2*10
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=40>=2*45 || 30>=2*10;
+        System.out.println("ans");
+    }
+}
+
+Output= 88 ms
+
 2. boolean ans= 40>3 && 20>3
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=40>3 && 20>3;
+        System.out.println("ans");
+    }
+}
+
+Output= 100ms
+
 3. boolean ans= 50>7 && 30>=40
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=50>7 && 30>=40;
+        System.out.println("ans");
+    }
+}
+
+Output= 108 ms
 4. boolean ans= 50<25 || 30>2
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= 50<25 || 30>2;
+        System.out.println("ans");
+    }
+}
+
+Output= 104 ms
+
 5. boolean ans= 70<=75 || 40<=2
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= 70<=75 || 40<=2;
+        System.out.println("ans");
+    }
+}
+Output= 120 ms
+
 6. boolean ans = !( 45==35)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= !( 45==35);
+        System.out.println("ans");
+    }
+}
+
+Output= 120 ms
+
 7. boolean ans= (20<32 && 2!=30) && (35>=20 || 35!=25)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= (20<32 && 2!=30) && (35>=20 || 35!=25);
+        System.out.println("ans");
+    }
+}
+
+Output= 108ms
+
 8. boolean ans= !(20>=30)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=!(20>=30);
+        System.out.println("ans");
+    }
+}
+
+Output= 88 ms
+
 9. boolean ans= !(30>40)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=!(30>40);
+        System.out.println("ans");
+    }
+}
+
+Output= 116 ms
+
 10. boolean ans = !(40==2*20) && 75==15*5
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=!(40==2*20) && 75==15*5;
+        System.out.println("ans");
+    }
+}
+
+Output= 124 ms 
+
 11. boolean ans = !(40>=40) || (50>=2*25)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=!(40>=40) || (50>=2*25);
+        System.out.println("ans");
+    }
+}
+
+Output= 104 ms
+
 12. boolean ans = !(10*5==50) || (2*3==7 || 9==28/3)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=!(10*5==50) || (2*3==7 || 9==28/3);
+        System.out.println("ans");
+    }
+}
+
+Output= 96 ms
+
 13. boolean ans = (20*5==100 || 10!=10) && (30*2==60 || 50<40)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans= (20*5==100 || 10!=10) && (30*2==60 || 50<40);
+        System.out.println("ans");
+    }
+}
+
+Output= 112 ms
+
+
 14. boolean ans = ( !(90>=40) && !(80>36) )
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=  ( !(90>=40) && !(80>36) );
+        System.out.println("ans");
+    }
+}
+
+Output= 92 ms
+
 15. boolean ans = ( (50>=20) || 90>2*45) && ( 30!=2*15)
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        boolean ans=  ( (50>=20) || 90>2*45) && ( 30!=2*15);
+        System.out.println("ans");
+    }
+}
+
+Output= 104 ms
 
 Quiz :- https://forms.gle/BpDa941x8QmRnt9D7
