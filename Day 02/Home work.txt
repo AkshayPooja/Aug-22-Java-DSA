@@ -1,36 +1,260 @@
 1) Take the diameter of a circle as input. Print the area of the circle as integer input.
+import java.util.Scanner;
+class AreaOfCircle 
+{
+   public static void main(String args[]) 
+    {   
+       
+      Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the radius:");
+         double r= s.nextDouble();
+         double  area=(22*r*r)/7 ;
+         System.out.println("Area of Circle is: " + area);      
+   }
+}
+
+
 
 2) Take the base and height of a triangle as input and store them in double variables x
 and y and print its area.
 
-3) Take an input x, check if it is greater than 1000 or not. Print true or false.
+import java.util.Scanner;
+class Solution
+{
+   public static void main(String args[]) 
+    {   
+       
+      Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the width of the Triangle:");
+         double x= s.nextDouble();
+ 
+         System.out.println("Enter the height of the Triangle:");
+          double y= s.nextDouble();
+ 
+                  //Area = (width*height)/2
+      double area=(x*y)/2;
+      System.out.println("Area of Triangle is: " + area);      
+   }
+}
+
+3)Store values 15, 4 in m and n variable of int data type then
+Print value of m+n in the first line
+Output= 19
+Print value of m-n in the first line
+Output= 11
+Print value of m*n in the first line
+Output= 60
+
 
 4) For 3rd and 4th Question. Attempt the Quiz
 https://forms.gle/bJCRD9hTR3PzZ4uN6
 
 5) Find the answer of the following expressions
 a. Int x = 7+3+4
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   int x=7+3+4;
+        System.out.println(x);
+        }
+}
+Output- 14
 b. Int x = 12 + 5 + 8
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   int x=7+3+4;
+        System.out.println(x);
+        }
+}
+
+Output- 25
+
 c. Int x= 13/5 + 18/8
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   int x=13/5 + 18/8;
+        System.out.println(x);
+        }
+}
+Output- 4
 d. double x= 12 + 5.0 + 2.76
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+  double x=12 + 5.0 + 2.76;
+        System.out.println(x);
+     }
+}
+Output- 19.759999999999998
+
 e. double x= 12/3 + 13/2
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+  double x=2/3 + 13/2;
+        System.out.println(x);
+     }
+}
+
+Output- 6.0
 f. double x=12/3 + 13.0/2
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+  double x=12/3 + 13.0/2;
+        System.out.println(x);
+     }
+}
+Output- 10.5
+
 g. double x=14/2 + 15.0/4
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+  double x=14/2 + 15.0/4;
+        System.out.println(x);
+     }
+}
+Output- 10.75
+
 h. double x= 13/2 % 5/3
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+  double x=13/2 % 5/3;
+        System.out.println(x);
+     }
+}
+Output- 0.0
 i. double x= 17.0/2 % 16.0/4
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+  double x=17.0/2 % 16.0/4;
+        System.out.println(x);
+     }
+}
+
+Output- 2.125
 
 6) Store these expressions inside a Boolean variable ans. Print their outputs true or
 false accordingly
-a. boolean ans = 3 > 2
+a. boolean ans = 3 > 2   
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans=3 > 2;
+        System.out.println(ans);
+        }
+}
+
+Output - True
+
 b. boolean ans = 3 ≥ 3
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans=3 > 3;
+        System.out.println(ans);
+        }
+}
+
+Output- true
+
 c. boolean ans = 4 + 3 > 9
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans=4 + 3 > 9;
+        System.out.println(ans);
+        }
+}
+
+Output-false
+
 d. boolean ans = 10 + 8 > 10
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans=10 + 8 > 10;
+        System.out.println(ans);
+        }
+}
+
+Output - true
+
 e. boolean ans = 12 != 10
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans=12 != 10;
+        System.out.println(ans);
+        }
+}
+
+Output- true
 f. boolean ans = 13 == 13
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans=13 == 13;
+        System.out.println(ans);
+        }
+}
+Output - true
+
 g. boolean ans = 14 != 14
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans= 14 != 14;
+        System.out.println(ans);
+        }
+}
+
+Output- false
 h. boolean ans = 20 == 5*4
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans= 20 == 5*4;
+        System.out.println(ans);
+        }
+}
+Output- true
+
 i. boolean ans = 30 != 3+4-10
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans= 30 != 3+4-10;
+        System.out.println(ans);
+        }
+}
+Output- true
+
 j. boolean ans = 20 == 41/2
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+   boolean ans;
+        ans= 20 == 41/2;
+        System.out.println(ans);
+        }
+}
+Output- true
 
 7) Take marks of a student in five subjects as input in a double variable. Print the sum
 of total marks and also find the percentage of the student.
